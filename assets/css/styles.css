@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #34B402;
+    --primary-light-color: #44E605;
+    --dark-color: #363636;
+    --light-color: #FFFFFF;
+  }
+
+section{
+    
+}
+
+#main{
+    background-color: turquoise;
+    font-family: 'Barlow', sans-serif;
+    color: var(--light-color);
+    background: linear-gradient(0deg, rgba(85,92,92,1) 0%, rgba(37,39,41,1) 33%, rgba(21,21,23,1) 100%);
+}
+
+#intro {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: turquoise;
+    background: url("../images/bg-intro.png") no-repeat center center;
+}
+
+#intro-txt{
+}
+
+#intro-txt p{
+    font-size: 1.15em;
+    line-height: 1.75em;
+    text-align: center;
+}
+
+#intro h1{
+    margin-bottom: 45px;
+    font-weight: 600;
+}
+
+#intro h2{
+    font-size: 2.25em;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+
+#intro span{
+    color: #44E605;
+}
+
+#intro .btn-cta{
+    text-decoration: none;
+    color: var(--primary-light-color);
+    margin-bottom: 45px;
+    display: block;
+}
