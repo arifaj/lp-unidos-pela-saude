@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap" rel="stylesheet">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/tiny-slider/dist/tiny-slider.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -19,6 +19,30 @@
   <body>
 
     <section id="main">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="assets/images/logo-branco.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Dados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Manifesto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Na mídia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre o movimento</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
         <div id="intro">
             <div class="container">
                 <div class="row align-items-center">
@@ -54,72 +78,16 @@
         </div>
     </section>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Dados</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Manifesto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Na mídia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre o movimento</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-    </nav>
-    <section id="intro2">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h1>
-                        <span>Mais imposto</span> <br> na saúde em plena <br> pandemia?
-                    </h1>
-                    <h2><span>#</span>Agora<span>Não</span>ÉHora<span>SP</span></h2>
-                </div>
-                <div class="col-lg-6">
-                    VIDEO
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6">
-                    <a href="#" class="btn-cta">CTA para bloco abaixo</a>
-                </div>
-                <div class="col-lg-6">
-                    Gráfico
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <p>
-                        Texto de 5 linhas resumo Lorem ipsum dolor sit amet, consectetur adipiscing elitras non velit at ex faucibus malesuada. Curabitur ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptour ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam sed dictum s himenaeos. Etiam sed dictum justo.
-                    </p>
-                </div>
-                <div class="col-12">
-                    Gráfico
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <section id="stats">
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-lg-4">
-                <img src="#" alt="" class="icon">
-                <span>titulo</span>
-                <span class="bg">titulo bg</span>
-                <span>titulo</span>
+                <img src="assets/images/icons/icon-01.png" alt="" class="icon">
+                <span>Mais de</span>
+                <span class="bg">40%</span>
+                <span>dos atendimentos</span>
                 <p>  (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
             </div>
             <div class="col-lg-4">
@@ -171,7 +139,7 @@
                 <div class="col-lg-6">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitras non velit at ex faucibus malesuada. Curabitur ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptour ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam sed dictum s himenaeos. Etiam sed dictum justo.</p>
                     <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, petaciti sociosqu ad litora torquent per conubia nostrac arcu eu odio porta sodales. </p>
-                    <a href="#">CTA para lightbox com o texto completo</a>
+                    <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> CTA para lightbox com o texto completo</a>
                 </div>
             </div>
         </div>
@@ -187,18 +155,83 @@
             <div class="row">
                 <div class="col">
                     <div class="my-slider">
-                        <div>Slide 1</div>
-                        <div>Slide 2</div>
-                        <div>Slide 3</div>
-                        <div>Slide 3</div>
-                        <div>Slide 3</div>
-                        <div>Slide 3</div>
-                        <div>Slide 3</div>
+                        <div class="card-midia">
+                            <div class="content">
+                                <h4>Veículo</h4>
+                                <p>Título da notícia lorem ipsum lorem lorem ipsum lorem ipsum lorem lorem ips</p>
+                                <span>20/01/2021</span>
+                                <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
+                            </div>
+                        </div>
+                        <div class="card-midia">
+                            <div class="content">
+                                <h4>Veículo</h4>
+                                <p>Título da notícia lorem ipsum lorem lorem ipsum lorem ipsum lorem lorem ips</p>
+                                <span>20/01/2021</span>
+                                <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
+                            </div>
+                        </div>
+                        <div class="card-midia">
+                            <div class="content">
+                                <h4>Veículo</h4>
+                                <p>Título da notícia lorem ipsum lorem lorem ipsum lorem ipsum lorem lorem ips</p>
+                                <span>20/01/2021</span>
+                                <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
+                            </div>
+                        </div>
+                        <div class="card-midia">
+                            <div class="content">
+                                <h4>Veículo</h4>
+                                <p>Título da notícia lorem ipsum lorem lorem ipsum lorem ipsum lorem lorem ips</p>
+                                <span>20/01/2021</span>
+                                <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
+                            </div>
+                        </div>
+                        <div class="card-midia">
+                            <div class="content">
+                                <h4>Veículo</h4>
+                                <p>Título da notícia lorem ipsum lorem lorem ipsum lorem ipsum lorem lorem ips</p>
+                                <span>20/01/2021</span>
+                                <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
+                            </div>
+                        </div>
+                        <div class="card-midia">
+                            <div class="content">
+                                <h4>Veículo</h4>
+                                <p>Título da notícia lorem ipsum lorem lorem ipsum lorem ipsum lorem lorem ips</p>
+                                <span>20/01/2021</span>
+                                <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
+                            </div>
+                        </div>
+                        <div class="card-midia">
+                            <div class="content">
+                                <h4>Veículo</h4>
+                                <p>Título da notícia lorem ipsum lorem lorem ipsum lorem ipsum lorem lorem ips</p>
+                                <span>20/01/2021</span>
+                                <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
+                            </div>
+                        </div>
+                        <div class="card-midia">
+                            <div class="content">
+                                <h4>Veículo</h4>
+                                <p>Título da notícia lorem ipsum lorem lorem ipsum lorem ipsum lorem lorem ips</p>
+                                <span>20/01/2021</span>
+                                <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
+                            </div>
+                        </div>
+                        <div class="card-midia">
+                            <div class="content">
+                                <h4>Veículo</h4>
+                                <p>Título da notícia lorem ipsum lorem lorem ipsum lorem ipsum lorem lorem ips</p>
+                                <span>20/01/2021</span>
+                                <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
+                            </div>
+                        </div>
                       </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col">
+            <div class="row about justify-content-center">
+                <div class="col-8">
                     <h2>Quem somos</h2>
                     <p>Texto de 5 linhas resumo Lorem ipsum dolor sit amet, consectetur adipiscing elitras non velit at ex faucibus malesuada. Curabitur ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptour ac arcu eu od.</p>
                 </div>
@@ -209,45 +242,45 @@
     <section id="parceiros">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col parceiro">
                     <img src="" alt="logo">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4">
-                    <img src="" alt="logo">
+                <div class="col-lg-4 parceiro">
+                    <img src="assets/images/logos/abimed-pb.png" alt="logo"> <br>
                     <span>Reúnde xx hospitais privados</span>
                 </div>
-                <div class="col-lg-4">
-                    <img src="" alt="logo">
+                <div class="col-lg-4 parceiro">
+                    <img src="assets/images/logos/abimed-pb.png" alt="logo"> <br>
                     <span>Reúnde xx hospitais privados</span>
                 </div>
-                <div class="col-lg-4">
-                    <img src="" alt="logo">
+                <div class="col-lg-4 parceiro">
+                    <img src="assets/images/logos/abimed-pb.png" alt="logo"> <br>
                     <span>Reúnde xx hospitais privados</span>
                 </div>
-                <div class="col-lg-4">
-                    <img src="" alt="logo">
+                <div class="col-lg-4 parceiro">
+                    <img src="assets/images/logos/abimed-pb.png" alt="logo"> <br>
                     <span>Reúnde xx hospitais privados</span>
                 </div>
-                <div class="col-lg-4">
-                    <img src="" alt="logo">
+                <div class="col-lg-4 parceiro">
+                    <img src="assets/images/logos/abimed-pb.png" alt="logo"> <br>
                     <span>Reúnde xx hospitais privados</span>
                 </div>
-                <div class="col-lg-4">
-                    <img src="" alt="logo">
+                <div class="col-lg-4 parceiro">
+                    <img src="assets/images/logos/abimed-pb.png" alt="logo"> <br>
                     <span>Reúnde xx hospitais privados</span>
                 </div>
-                <div class="col-lg-4">
-                    <img src="" alt="logo">
+                <div class="col-lg-4 parceiro">
+                    <img src="assets/images/logos/abimed-pb.png" alt="logo"> <br>
                     <span>Reúnde xx hospitais privados</span>
                 </div>
-                <div class="col-lg-4">
-                    <img src="" alt="logo">
+                <div class="col-lg-4 parceiro">
+                    <img src="assets/images/logos/abimed-pb.png" alt="logo"> <br>
                     <span>Reúnde xx hospitais privados</span>
                 </div>
-                <div class="col-lg-4">
-                    <img src="" alt="logo">
+                <div class="col-lg-4 parceiro">
+                    <img src="assets/images/logos/abimed-pb.png" alt="logo"> <br>
                     <span>Reúnde xx hospitais privados</span>
                 </div>
             </div>
@@ -264,7 +297,9 @@
         autoplay: false,
         controls: false,
         mouseDrag: true,
-        navPosition: 'bottom'
+        navPosition: 'bottom',
+        gutter: 30,
+        navItems: 'dots'
   });
    </script>
   </body>

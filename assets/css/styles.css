@@ -3,6 +3,7 @@
     --primary-light-color: #44E605;
     --dark-color: #363636;
     --light-color: #FFFFFF;
+    --light-gray-color: #E3E3E3;
   }
 
 section{
@@ -35,12 +36,12 @@ section{
 
 #intro h1{
     margin-bottom: 45px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 #intro h2{
-    font-size: 2.25em;
-    font-weight: 600;
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 800;
     margin-bottom: 45px;
 }
 
@@ -52,5 +53,194 @@ section{
     text-decoration: none;
     color: var(--primary-light-color);
     margin-bottom: 45px;
+    display: inline-block;
+}
+
+#stats{
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-gray-color);
+    padding: 90px 0;
+}
+
+#stats img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 16px;
+    box-shadow: 0px 3px 26px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 3px 26px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 3px 26px 0px rgba(0,0,0,0.25);
+    border-radius: 50%;
+}
+
+#stats span{
     display: block;
+    font-weight: 800;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+#stats span.bg{
+    font-size: 3em;
+}
+
+#stats p{
+    margin-top: 16px;
+    margin-bottom: 90px;
+}
+
+#manifest{
+    padding: 90px 0;
+    color: var(--light-color);
+    background-color: var(--dark-color);
+}
+
+#manifest h3{
+    text-align: center;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+#manifest h2{
+    text-align: center;
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 800;
+    margin-bottom: 90px;
+
+}
+
+#manifest p{
+    font-size: 1.15em;
+    line-height: 1.75em;
+}
+
+#manifest .btn-cta{
+    text-decoration: none;
+    color: var(--primary-light-color);
+    margin-top: 45px;
+    display: inline-block;
+}
+
+#midia{
+    padding: 90px 0;
+    color: var(--dark-color);
+    background: linear-gradient(0deg, rgba(54,54,54,1) 0%, rgba(227,227,227,1) 75%, rgba(227,227,227,1) 100%);
+}
+
+#midia h2{
+    text-align: center;
+    font-size: calc(1.375rem + 1.5vw);
+    font-weight: 800;
+    margin-bottom: 45px;
+    color: var(--primary-color);
+}
+
+#midia .about{
+    padding-top: 90px;
+}
+
+#midia .about p{
+        font-size: 1.15em;
+        line-height: 1.75em;
+        text-align: center;
+        color: var(--light-color);
+}
+
+#midia .about h2{
+    color: var(--light-color);
+}
+
+.card-midia .content{
+    background-color: var(--light-color);
+    border-radius: 10px;
+    padding: 45px;
+}
+
+.card-midia .content h4{
+    font-size: 1.25em;
+        line-height: 1.75em;
+        color: var(--primary-color);
+        font-weight: 800;
+}
+
+.card-midia .content p{
+    font-size: 1.15em;
+    line-height: 1.75em;
+    font-weight: 800;
+}
+
+.card-midia .content span{
+    font-size: 1.15em;
+    line-height: 1.75em;
+    display: block;
+}
+
+.card-midia .content .btn-cta{
+    font-size: 1.15em;
+    line-height: 1.75em;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.tns-nav{
+    text-align: center;
+}
+
+.tns-nav > [aria-controls] {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    margin: 0 5px;
+    border-radius: 50%;
+    background: var(--light-color);
+    border: 0;
+}
+
+
+.tns-nav > .tns-nav-active {
+    background: var(--primary-light-color);
+    margin-top: 25px;
+}
+
+#parceiros{
+    padding: 90px 0;
+    text-align: center;
+    background-color: var(--light-gray-color);
+}
+
+#parceiros .parceiro{
+    margin-bottom: 45px;
+}
+
+#parceiros img{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+#parceiros span{
+    display: inline-block;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    padding: 10px 25px;
+    border-radius: 500px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--light-color);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.navbar-brand {
+    display: block;
+}
+
+.navbar-brand img{
+    display: block;
+    width: auto;
+    height: 40px;
 }
