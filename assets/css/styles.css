@@ -250,7 +250,7 @@
 #parceiros{
     padding: 90px 0;
     text-align: center;
-    background-color: var(--light-gray-color);
+    background-color: var(--light-color);
 }
 
 #parceiros .parceiro{
@@ -259,13 +259,12 @@
 
 #parceiros img{
     display: inline-block;
-    margin-bottom: 15px;
 }
 
 #parceiros span{
     display: inline-block;
-    color: var(--light-color);
-    background-color: var(--primary-color);
+    color: var(--dark-color);
+    /* background-color: var(--primary-color); */
     padding: 10px 25px;
     border-radius: 500px;
 }
@@ -291,7 +290,15 @@
     height: 40px;
 }
 
-.modal p{
+.logo-wrapper{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal p,
+.modal ol{
     font-size: 1.15em;
     line-height: 1.75em;
 }
