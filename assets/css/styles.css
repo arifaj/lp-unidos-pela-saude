@@ -132,7 +132,7 @@
 #manifest{
     padding: 90px 0;
     color: var(--light-color);
-    background:  var(--dark-color) url("../images/bg-manifesto.png") no-repeat right bottom;
+    background:  var(--dark-color) url("../images/bg-manifesto.png") no-repeat right center;
     background-size: 50%;
 
 }
