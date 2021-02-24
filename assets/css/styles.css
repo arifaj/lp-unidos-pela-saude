@@ -6,28 +6,39 @@
     --light-gray-color: #E3E3E3;
   }
 
-section{
-    
-}
-
-.col-6{
-    border: solid 1px #000000;
-}
 .cta{
-    background-color:lightblue;
+    height: 120px;
+    margin-top: 25px;
+    padding-top: 45px;
 }
 
 .graph-1-container{
     position: relative;
+    margin-top: 25px;
+    height: 120px;
 }
 
 .graph-1{
-    background-color: yellow;
     position: absolute;
     left: 0;
     top: 0;
     width: 50vw ;
-    background: yellow url("../images/grafismo.png") top left no-repeat;
+    background: url("../images/grafismo.png") top left no-repeat;
+    height: 120px;
+}
+
+.graph-2-container{
+    position: relative;
+    margin-top: 25px;
+    height: 120px;
+}
+
+.graph-2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50vw ;
+    background: url("../images/grafismo-2.png") top right no-repeat;
     height: 120px;
 }
 
