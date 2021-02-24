@@ -10,6 +10,27 @@ section{
     
 }
 
+.col-6{
+    border: solid 1px #000000;
+}
+.cta{
+    background-color:lightblue;
+}
+
+.graph-1-container{
+    position: relative;
+}
+
+.graph-1{
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50vw ;
+    background: yellow url("../images/grafismo.png") top left no-repeat;
+    height: 120px;
+}
+
 #main{
     background-color: turquoise;
     font-family: 'Barlow', sans-serif;
@@ -24,6 +45,11 @@ section{
 
     align-items: center;
     background: url("../images/bg-intro.png") no-repeat center center;
+}
+
+#dados {
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 #dados p{
