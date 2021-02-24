@@ -59,7 +59,7 @@
 }
 
 #dados {
-    padding-top: 90px;
+    /* padding-top: 90px; */
     padding-bottom: 90px;
 }
 
@@ -67,6 +67,9 @@
     font-size: 1.15em;
     line-height: 1.75em;
     text-align: center;
+}
+#dados p:last-child{
+    margin-bottom: 90px;
 }
 
 #intro h1{
