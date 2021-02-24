@@ -20,15 +20,13 @@ section{
 #intro {
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
+
     align-items: center;
-    background-color: turquoise;
     background: url("../images/bg-intro.png") no-repeat center center;
 }
 
-#intro-txt{
-}
-
-#intro-txt p{
+#dados p{
     font-size: 1.15em;
     line-height: 1.75em;
     text-align: center;
@@ -81,6 +79,10 @@ section{
     line-height: 1em;
 }
 
+#stats .counter{
+    display: inline-block;
+}
+
 #stats span.bg{
     font-size: 3em;
 }
@@ -93,7 +95,9 @@ section{
 #manifest{
     padding: 90px 0;
     color: var(--light-color);
-    background-color: var(--dark-color);
+    background:  var(--dark-color) url("../images/bg-manifesto.png") no-repeat right bottom;
+    background-size: 50%;
+
 }
 
 #manifest h3{
@@ -243,4 +247,20 @@ section{
     display: block;
     width: auto;
     height: 40px;
+}
+
+.logo{
+    width: auto;
+    height: 40px;
+}
+
+.modal p{
+    font-size: 1.15em;
+    line-height: 1.75em;
+}
+
+.modal h5 {
+    text-align: center;
+    font-weight: 800;
+    color: var(--primary-color);
 }

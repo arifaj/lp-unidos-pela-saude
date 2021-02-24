@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,34 +14,43 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/multi-animated-counter.js"></script>
+
 
     <title>Hello, world!</title>
-  </head>
-  <body>
+</head>
+
+<body>
 
     <section id="main">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-              <a class="navbar-brand" href="#"><img src="assets/images/logo-branco.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Dados</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Manifesto</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Na mídia</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre o movimento</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#"><img src="assets/images/logo-branco.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#dados">Dados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#manifest">Manifesto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#midia">Na mídia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre o movimento</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <div id="intro">
@@ -54,22 +64,29 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="ratio ratio-16x9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PXvcB8hoPto" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/PXvcB8hoPto"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
                     </div>
                     <div class="col-lg-6">
-                        <a href="#" class="btn-cta"><i class="bi bi-arrow-down"></i> CTA para bloco abaixo</a>
+                        <a href="#dados" class="btn-cta"><i class="bi bi-arrow-down"></i> CTA para bloco abaixo</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="intro-txt">
+        <div id="dados">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-8">
                         <div class="p">
                             <p>
-                                Texto de 5 linhas resumo Lorem ipsum dolor sit amet, consectetur adipiscing elitras non velit at ex faucibus malesuada. Curabitur ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptour ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam sed dictum s himenaeos. Etiam sed dictum justo.
+                                Texto de 5 linhas resumo Lorem ipsum dolor sit amet, consectetur adipiscing elitras non
+                                velit at ex faucibus malesuada. Curabitur ac arcu eu odio porta sodales. Class aptent
+                                taciti sociosqu ad litora torquent per conubia nostra, per inceptour ac arcu eu odio
+                                porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                                inceptos himenaeos. Etiam sed dictum s himenaeos. Etiam sed dictum justo.
                             </p>
                         </div>
                     </div>
@@ -78,53 +95,77 @@
         </div>
     </section>
 
-   
+
 
     <section id="stats">
         <div class="container">
             <div class="row justify-content-center">
-            <div class="col-lg-4">
-                <img src="assets/images/icons/icon-01.png" alt="" class="icon">
-                <span>Mais de</span>
-                <span class="bg">40%</span>
-                <span>dos atendimentos</span>
-                <p>  (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
-            </div>
-            <div class="col-lg-4">
-                <img src="#" alt="" class="icon">
-                <span>titulo</span>
-                <span class="bg">titulo bg</span>
-                <span>titulo</span>
-                <p>  (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
-            </div>
-            <div class="col-lg-4">
-                <img src="#" alt="" class="icon">
-                <span>titulo</span>
-                <span class="bg">titulo bg</span>
-                <span>titulo</span>
-                <p>  (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
-            </div>
-            <div class="col-lg-4">
-                <img src="#" alt="" class="icon">
-                <span>titulo</span>
-                <span class="bg">titulo bg</span>
-                <span>titulo</span>
-                <p>  (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
-            </div>
-            <div class="col-lg-4">
-                <img src="#" alt="" class="icon">
-                <span>titulo</span>
-                <span class="bg">titulo bg</span>
-                <span>titulo</span>
-                <p>  (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
-            </div>
-            <div class="col-lg-4">
-                <img src="#" alt="" class="icon">
-                <span>titulo</span>
-                <span class="bg">titulo bg</span>
-                <span>titulo</span>
-                <p>  (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
-            </div>
+                <div class="col-lg-4">
+                    <img src="assets/images/icons/icon-01.png" alt="" class="icon">
+                    <span>Mais de</span>
+                    <span class="bg">
+                        <div id="counters_1">
+                            <span class="counter" data-TargetNum="40" data-Speed="1000">0</span>%
+                        </div>
+                    </span>
+                    <span>dos atendimentos</span>
+                    <p> (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/images/icons/icon-01.png" alt="" class="icon">
+                    <span>Mais de</span>
+                    <span class="bg">
+                        <div id="counters_2">
+                            <span class="counter" data-TargetNum="40" data-Speed="1000">0</span>%
+                        </div>
+                    </span>
+                    <span>dos atendimentos</span>
+                    <p> (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/images/icons/icon-01.png" alt="" class="icon">
+                    <span>Mais de</span>
+                    <span class="bg">
+                        <div id="counters_3">
+                            <span class="counter" data-TargetNum="40" data-Speed="1000">0</span>%
+                        </div>
+                    </span>
+                    <span>dos atendimentos</span>
+                    <p> (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/images/icons/icon-01.png" alt="" class="icon">
+                    <span>Mais de</span>
+                    <span class="bg">
+                        <div id="counters_4">
+                            <span class="counter" data-TargetNum="40" data-Speed="1000">0</span>%
+                        </div>
+                    </span>
+                    <span>dos atendimentos</span>
+                    <p> (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/images/icons/icon-01.png" alt="" class="icon">
+                    <span>Mais de</span>
+                    <span class="bg">
+                        <div id="counters_5">
+                            <span class="counter" data-TargetNum="40" data-Speed="1000">0</span>%
+                        </div>
+                    </span>
+                    <span>dos atendimentos</span>
+                    <p> (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="assets/images/icons/icon-01.png" alt="" class="icon">
+                    <span>Mais de</span>
+                    <span class="bg">
+                        <div id="counters_6">
+                            <span class="counter" data-TargetNum="40" data-Speed="1000">0</span>%
+                        </div>
+                    </span>
+                    <span>dos atendimentos</span>
+                    <p> (internações) SUS são realizados por entidades filantrópicas. (Fonte: CNES- DATASUS) </p>
+                </div>
             </div>
         </div>
     </section>
@@ -133,13 +174,23 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h3>Manifesto</h3>
-                    <h2>Chamada aqui nonono nononono</h2>
+                    <h3>Carta aberta ao governador do Estado de São Paulo
+                    </h3>
+                    <h2>Manifesto contra a revogação <br> da isenção de ICMS no Estado </h2>
                 </div>
                 <div class="col-lg-6">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitras non velit at ex faucibus malesuada. Curabitur ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptour ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam sed dictum s himenaeos. Etiam sed dictum justo.</p>
-                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, petaciti sociosqu ad litora torquent per conubia nostrac arcu eu odio porta sodales. </p>
-                    <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> CTA para lightbox com o texto completo</a>
+                    <p> <strong>O Movimento Unidos pela Saúde</strong>, composto por oito entidades que representam os
+                        principais
+                        segmentos do setor e respondem, em conjunto, por cerca de dois milhões de empregos no Estado,
+                        vem a público se manifestar contra os Decretos 65.254/2020 e 65.255/2020, assinados pelo
+                        governador João Doria (PSDB), que revogaram a isenção da alíquota de 18% do Imposto sobre
+                        Circulação de Mercadorias e Serviços (ICMS) a partir de 1º de janeiro de 2021.
+                    </p>
+                    <p> Em meio a uma crise sem precedentes, causada pela pandemia do novo coronavírus, a Saúde foi
+                        justamente o único setor a ter o benefício integralmente revogado.
+                    </p> <a href="#" class="btn-cta" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"><i class="bi bi-arrow-right"></i> CTA para lightbox com o texto
+                        completo</a>
                 </div>
             </div>
         </div>
@@ -227,13 +278,15 @@
                                 <a href="#" class="btn-cta"><i class="bi bi-arrow-right"></i> Leia a notícia</a>
                             </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
-            <div class="row about justify-content-center">
+            <div id="sobre" class="row about justify-content-center">
                 <div class="col-8">
                     <h2>Quem somos</h2>
-                    <p>Texto de 5 linhas resumo Lorem ipsum dolor sit amet, consectetur adipiscing elitras non velit at ex faucibus malesuada. Curabitur ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptour ac arcu eu od.</p>
+                    <p>Texto de 5 linhas resumo Lorem ipsum dolor sit amet, consectetur adipiscing elitras non velit at
+                        ex faucibus malesuada. Curabitur ac arcu eu odio porta sodales. Class aptent taciti sociosqu ad
+                        litora torquent per conubia nostra, per inceptour ac arcu eu od.</p>
                 </div>
             </div>
         </div>
@@ -243,7 +296,7 @@
         <div class="container">
             <div class="row">
                 <div class="col parceiro">
-                    <img src="" alt="logo">
+                    <img src="assets/images/logo.png" class="logo" alt="logo">
                 </div>
             </div>
             <div class="row">
@@ -286,21 +339,244 @@
             </div>
         </div>
     </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Manifesto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p><strong>Carta aberta ao governador do Estado de São Paulo</strong></p>
+
+
+                    <p>Manifesto contra a revogação da isenção de ICMS no Estado</p>
+
+
+                    <p>
+                        O Movimento Unidos pela Saúde, composto por oito entidades que representam os principais
+                        segmentos
+                        do setor e respondem, em conjunto, por cerca de dois milhões de empregos no Estado, vem a
+                        público se
+                        manifestar contra os Decretos 65.254/2020 e 65.255/2020, assinados pelo governador João Doria
+                        (PSDB), que revogaram a isenção da alíquota de 18% do Imposto sobre Circulação de Mercadorias e
+                        Serviços (ICMS) a partir de 1º de janeiro de 2021.
+                    </p>
+
+                    <p>
+                        Em meio a uma crise sem precedentes, causada pela pandemia do novo coronavírus, a Saúde foi
+                        justamente o único setor a ter o benefício integralmente revogado. Com essa decisão, passa a ser
+                        ainda mais onerado no momento em que busca salvar vidas, ao mesmo tempo em que lida com grande
+                        aumento de custos decorrentes da pandemia - muitos relacionados diretamente com o atendimento a
+                        pacientes vítimas da Covid-19.
+                    </p>
+
+                    <p>Com este cenário alarmante, o movimento defende: #AgoraNãoÉHoraSP.</p>
+
+                    <p>
+                        Para isso, as entidades abaixo assinadas se uniram para requerer que a isenção do ICMS seja
+                        permanente ou, pelo menos, tenha o prazo estendido, tal qual como era aplicada ao setor e
+                        praticada
+                        por diversos países.
+                    </p>
+
+                    <p>
+                        O Movimento Unidos pela Saúde defende que é preciso um diálogo aberto entre as esferas pública e
+                        privada, já que essas mudanças afetam outros setores e a população diretamente. A abertura de
+                        uma
+                        frente de diálogo com o Governo do Estado de São Paulo é fundamental nesse momento de
+                        fragilidade da
+                        cadeia de saúde.
+                    </p>
+
+                    <p>
+                        Dentre os pontos a serem discutidos com as autoridades, a revisão da alíquota deve ter
+                        prioridade. O
+                        Movimento Unidos pela Saúde acredita que é injusto que o setor que tem desempenhado um papel
+                        fundamental e incansável no enfrentamento da pandemia seja o único a ser impactado com esse
+                        aumento
+                        drástico de imposto. Nunca ficou tão evidente que a Saúde não pode parar.
+                    </p>
+
+                    <p>
+                        Os impactos do fim da isenção podem colocar em risco todos os elos do setor, causando um efeito
+                        em
+                        cadeia, chegando, inevitavelmente, ao paciente, uma vez que haverá aumento nos custos de
+                        tratamentos, medicamentos, procedimentos, dispositivos médicos, serviços hospitalares, entre
+                        outros.
+                        Para efeito de comparação, segundo a Associação Brasileira da Indústria de Artigos e
+                        Equipamentos
+                        Médicos e Odontológicos (ABIMO), um implante dentário pode subir de R$ 2.920,00 para R$
+                        3.152,00.
+                        Uma cirurgia cardíaca de alto risco pode passar de R$ 43,2 mil para R$ 47,5 mil.
+                    </p>
+
+                    <p>
+                        Com isso, o direito constitucional dos brasileiros de acesso à saúde está ameaçado, uma vez que
+                        causará o aumento no valor dos planos, utilizados por 47,6 milhões de pessoas, e pode fazer com
+                        que
+                        os beneficiários migrem para o Sistema Único de Saúde (SUS). Só na cidade de São Paulo, 55% das
+                        pessoas possuem plano de saúde e 40% no Estado de São Paulo. Essas pessoas seriam as primeiras
+                        afetadas pela elevação das mensalidades.
+                    </p>
+
+                    <p>
+                        Atualmente, cerca de 70% das cirurgias de alta complexidade do SUS são realizadas em hospitais
+                        privados, mas esse cenário pode mudar diante da nova realidade. O objetivo do setor é evitar
+                        esse
+                        repasse para os usuários e garantir a continuidade na prestação dos serviços.
+                    </p>
+
+                    <p>
+                        Outro ponto importante é que, com o fim da isenção, segundo a Associação Brasileira de
+                        Importadores
+                        e Distribuidores de Produtos para Saúde (ABRAIDI), uma média de 65% de importadores e
+                        distribuidores
+                        de produtos para saúde terão que deixar de atender os hospitais públicos, porque não terão
+                        condições
+                        de arcar com o aumento. Além disso, segundo a pesquisa, a previsão é que 48% de importadores e
+                        distribuidores devam dispensar até cinco empregados, 10% irão realizar de seis a 10 dispensas e
+                        14%
+                        afirmaram que terão que fechar mais de 10 postos de trabalho. Ou seja, a medida impacta o
+                        sistema de
+                        saúde como um todo e a vida de milhões de pessoas, causando redução das atividades empresariais
+                        e a
+                        necessidade de promover demissões em decorrência do aumento do ICMS.
+                    </p>
+
+
+
+                    <p>
+                        <strong>
+                            Abaixo, alguns pontos fundamentais que não foram levados em consideração para a aprovação do
+                            aumento
+                            de imposto:
+                        </strong>
+                    </p>
+
+
+                    <p>1. Mais de 40% dos atendimentos (internações) SUS são realizados por entidades filantrópicas.</p>
+
+                    <p>2. Cerca de 70% das cirurgias de alta complexidade do SUS acontecem em hospitais privados.</p>
+
+                    <p>
+                        3. No Brasil, 54% dos municípios não têm hospitais e mais da metade dos que têm só contam com a
+                        rede
+                        privada. (Fonte: CNES- DATASUS)
+                    </p>
+
+                    <p>
+                        4. A saúde suplementar atende mais de 47,6 milhões dos brasileiros, o correspondente a 22,4% da
+                        população. Em alguns estados, o número é maior – como em São Paulo (37,4%), Rio de Janeiro
+                        (31,5%) e
+                        Distrito Federal (28,4%). (Fonte: SIB/ANS/MS - 12/2020 e IBGE. Dados extraídos pelo IESS em
+                        05/02/2021)
+                    </p>
+
+                    <p>
+                        5. Entre 2019 e 2020, a arrecadação estadual sobre o setor de dispositivos médicos saltou
+                        29,87%,
+                        passando de R$ 498,3 milhões para R$ 647,2 milhões em ICMS. O fim da isenção do imposto deve
+                        custar
+                        à saúde privada, em média, R$ 1 bilhão por ano sobre o preço de cerca de 200 dispositivos
+                        médicos de
+                        alto custo, como implantes ortopédicos, neurológicos, stents, marcapassos e desfibriladores
+                        implantáveis. (Fonte: ABIMO. Dados de 2020)
+                    </p>
+
+                    <p>
+                        6. Apenas 1 em 27 unidades federativas brasileiras revogou a isenção de ICMS na Saúde: São
+                        Paulo. A
+                        medida vai na contramão do que o resto do país e do mundo está fazendo durante a pandemia, que é
+                        reduzir impostos para o setor de saúde.
+                    </p>
+
+                    <p>
+                        7. Os hospitais privados perderam de em torno de 20% da receita em 2020, devido à postergação de
+                        cirurgias e procedimentos eletivos por conta da pandemia. (Fonte Sindhosp - confirmar)
+                    </p>
+
+                    <p>
+                        8. Estima-se impacto de, aproximadamente, R$ 300 milhões a R$ 400 milhões para laboratórios e
+                        clínicas de diagnóstico por imagem. (Fonte: Abramed)
+                    </p>
+
+                    <p>
+                        9. A partir da iniciativa de São Paulo, de abrir uma guerra fiscal, os demais estados
+                        brasileiros
+                        poderão também renunciar ao Convênio 01/99, elevando o ICMS da saúde. Caso isso ocorra em nível
+                        nacional, aA tributação trará um acréscimo de gastos anuais de R$ 2,54 bilhões na saúde pública
+                        e de
+                        R$ 2,73 bilhões na rede privada. A alteração causará aumento de R$ 5,27 bilhões para a
+                        manutenção do
+                        atendimento da população. (Fonte: Aliança Brasileira da Indústria Inovadora em Saúde – ABIIS - ,
+                        da
+                        qual a Associação Brasileira de Importadores e Distribuidores de Produtos para Saúde – ABRAIDI -
+                        faz
+                        parte).
+                    </p>
+
+                    <p>
+                        10. Cerca de 70% dos dispositivos médicos que abastecem todo o Brasil saem do estado de São
+                        Paulo.
+                        (Fonte: ABIMO).
+                    </p>
+
+                    <p>
+                        11. O aumento do ICMS paulista deve custar à saúde privada, em média, R$ 1 bilhão por ano sobre
+                        o
+                        preço de cerca de 200 dispositivos médicos de alto custo, como implantes ortopédicos,
+                        neurológicos,
+                        stents, marcapassos e desfibriladores implantáveis. (Fonte: ABIMO).
+                    </p>
+
+                    <p>
+                        12. Segundo o Índice de Preços de Medicamentos para Hospitais (IPM-H), com foco no comportamento
+                        de
+                        preços de medicamentos transacionados entre fornecedores e hospitais no mercado brasileiro, em
+                        2020
+                        o setor acumulou uma alta de 14,36% (mais de três vezes superior ao período 2019 quando acumulou
+                        alta de 3,97%). No contexto da crise sanitária e repercussões, é possível atribuir esses
+                        aumentos a
+                        um ou vários dos seguintes fatores: choque positivo da demanda das unidades de saúde,
+                        desabastecimento do mercado doméstico, elevação do dólar e do preço de insumos, entre outros
+                        fatores. (Fonte: IPM-H/FIPE).
+                    </p>
+
+
+
+                    <p>
+                        Diante dos pontos alegados, este manifesto visa evitar que haja um colapso da Saúde no Brasil.
+                        Mais
+                        do que nunca, vemos que a saúde é uma só e que agora é a hora de nos unirmos em prol da vida dos
+                        brasileiros.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="node_modules/tiny-slider/dist/tiny-slider.js"></script>
-   <script>
-       console.log("Deu certo");
-       var slider = tns({
-        container: '.my-slider',
-        items: 3,
-        slideBy: 'page',
-        autoplay: false,
-        controls: false,
-        mouseDrag: true,
-        navPosition: 'bottom',
-        gutter: 30,
-        navItems: 'dots'
-  });
-   </script>
-  </body>
+    <script>
+        var slider = tns({
+            container: '.my-slider',
+            items: 1,
+            "responsive": {
+                "992": {
+                    "items": 3
+                }
+            },
+            slideBy: 'page',
+            autoplay: false,
+            controls: false,
+            mouseDrag: true,
+            navPosition: 'bottom',
+            gutter: 30,
+            navItems: 'dots'
+        });
+    </script>
+</body>
+
 </html>
