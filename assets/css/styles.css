@@ -199,6 +199,7 @@
     background-color: var(--light-color);
     border-radius: 10px;
     padding: 45px;
+    height: 366px;
 }
 
 .card-midia .content h4{
@@ -301,7 +302,7 @@
 }
 
 .modal p,
-.modal ol{
+.modal ul{
     font-size: 1.15em;
     line-height: 1.75em;
 }
