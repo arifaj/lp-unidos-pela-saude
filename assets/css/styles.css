@@ -302,9 +302,14 @@
 }
 
 .modal p,
-.modal ul{
+.modal ul,
+.modal ol{
     font-size: 1.15em;
     line-height: 1.75em;
+}
+
+.modal li{
+    margin-bottom: 8px;
 }
 
 .modal h5 {
